@@ -14,5 +14,5 @@ Then login should be successful
 
 
 Examples:
-| name  				| password        | 
-| sunnygazi@gmail.com	| Ibrahimgazi007  |
+| name  					| password       		 | 
+| ibrahimgaziqa@gmail.com	| VFyVpz6k-bcVRrR 		 |
