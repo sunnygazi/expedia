@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tt.testngrunner.TestngRunner">
+      <class name="com.tt.stepdefination.AccountLogin">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="ScrollByPixel"/>
         </methods>
-      </class> <!-- com.tt.testngrunner.TestngRunner -->
+      </class> <!-- com.tt.stepdefination.AccountLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,11 +5,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import Common.BaseTest;
 
-public class Hotels {
-	public Hotels(WebDriver driver) {
+public class Cars {
+	public Cars(WebDriver driver) {
 		BaseTest.driver = driver;
 		PageFactory.initElements(driver, this);
 
 	}
+
 
 }
