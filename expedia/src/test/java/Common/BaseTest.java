@@ -10,7 +10,7 @@ public class BaseTest {
 	public static String url = "https://www.expedia.com";
 	public static WebDriver driver;
 
-	public static void getBrowserG() {
+	public static void chromebrowser() {
 		System.setProperty("webdriver.chrome.driver", "/Users/SUNNY/Desktop/chromedriver");
 		driver = new ChromeDriver();
 		driver.get(url);
@@ -19,7 +19,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
-	public static void getBrowserM() throws InterruptedException {
+	public static void firefoxbrowser() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "/Users/SUNNY/Desktop/geckodriver");
 		driver = new FirefoxDriver();
 		driver.get(url);
