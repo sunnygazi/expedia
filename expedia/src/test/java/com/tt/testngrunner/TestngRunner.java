@@ -4,7 +4,8 @@ import cucumber.api.CucumberOptions;
 
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features = { "Cucumber" }, glue = { "com.tt.stepdefination" }, tags = { "@accountLongin" })
+@CucumberOptions(features = { "Cucumber" }, glue = { "com.tt.stepdefination" }, tags = {
+		"@accountLongin,@switchlanguage" })
 
 public class TestngRunner extends AbstractTestNGCucumberTests {
 
