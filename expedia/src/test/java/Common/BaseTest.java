@@ -19,7 +19,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
-	public static void firefoxbrowser() throws InterruptedException {
+	public static void firefoxbrowser() {
 		System.setProperty("webdriver.gecko.driver", "/Users/SUNNY/Desktop/geckodriver");
 		driver = new FirefoxDriver();
 		driver.get(url);
@@ -27,15 +27,6 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
-
-//	@Test
-//	public void ScrollByPixel() {
-//
-//		JavascriptExecutor js = (JavascriptExecutor) driver;
-//
-//		// This will scroll down the page by 1000 pixel vertical
-//		js.executeScript("window.scrollBy(0,1000)");
-//	}
 
 	public static void closebrowser() {
 		driver.close();
